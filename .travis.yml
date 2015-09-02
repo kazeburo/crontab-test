@@ -1,0 +1,5 @@
+language: ruby
+script:
+  - cat crontab.fail.txt | crontab
+rvm:
+  - 2.2.0
